@@ -1,0 +1,4 @@
+Concluciones Test-Automation-https://www.saucedemo.com/
+-Comprobación de campos alfanuméricos: Los campos de entrada para el código postal, nombres y apellidos han sido validados para aceptar caracteres alfanuméricos sin restricciones, lo cual es esencial para reflejar la diversidad de datos en un entorno de producción real.
+-Funcionalidad verificada: Las funcionalidades clave del sitio web han sido probadas y se comportan según lo esperado, lo que indica una alta fiabilidad y preparación para la automatización de pruebas.
+-Automatización sin obstáculos: No se identificaron problemas significativos que impidan la automatización de pruebas, lo que sugiere que el sitio está bien construido y estructurado para soportar pruebas automatizadas.
