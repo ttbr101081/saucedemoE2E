@@ -1,6 +1,6 @@
 # Test-Automation-https://www.saucedemo.com/
 ### 🛠  Automatización de casos https://www.saucedemo.com/ y muestra de reportes CucumberSerenity
-
+### Autor Rodrigo Terán
 📢 
 Este repositorio contiene un proyecto de prueba automatizado para Swag Labs utilizando Java, Cucumber, BDD, Selenium, Gherkin, ChromeDriver, JUnit 4, Maven y Eclipse IDE. Las pruebas están diseñadas para cubrir varios escenarios en el sitio web de Sauce Demo (https://www.saucedemo.com).
 ## Table of Contents
