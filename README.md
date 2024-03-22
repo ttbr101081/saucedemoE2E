@@ -35,7 +35,7 @@ El proyecto cubre las siguientes áreas del sitio web de Swag Labs:
 
 Este proyecto de automatización de pruebas para Swag Labs utiliza una variedad de herramientas y tecnologías para optimizar el proceso de prueba y garantizar resultados eficientes y precisos.
 
-- **Java**: el lenguaje de programación principal utilizado para escribir el código de automatización de pruebas.
+- **Java jdk-21**: el lenguaje de programación principal utilizado para escribir el código de automatización de pruebas.
 
 - **Cucumber**: una herramienta de desarrollo basado en el comportamiento (BDD) que permite escribir escenarios de prueba en un formato legible por humanos.
 
@@ -47,12 +47,13 @@ Este proyecto de automatización de pruebas para Swag Labs utiliza una variedad 
 
 - **JUnit**: un marco de prueba ampliamente utilizado para aplicaciones Java, utilizado para ejecutar y gestionar casos de prueba.
 
-- **Maven**: una herramienta de gestión de dependencias y compilación que simplifica la configuración y el mantenimiento del proyecto.
+- **Maven 3.9.4**: una herramienta de gestión de dependencias y compilación que simplifica la configuración y el mantenimiento del proyecto.
 
 - **IntelliJ IDE**: un entorno de desarrollo integrado para Java que proporciona un espacio de trabajo para codificar, probar y depurar.
 
 Estas tecnologías se combinan para crear un marco de prueba eficaz que automatiza casos de prueba, realiza comparaciones entre los resultados esperados y reales y genera informes de prueba detallados.
 
+![image](https://github.com/ttbr101081/saucedemoE2E/assets/79415192/3009a305-d0ac-4415-b894-128cb11e597c)
 
 
 ## Installation
