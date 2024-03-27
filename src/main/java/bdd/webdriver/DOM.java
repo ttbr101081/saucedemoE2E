@@ -1,13 +1,12 @@
 package bdd.webdriver;
 
 
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -20,9 +19,11 @@ public class DOM {
     private static String url;
     public static WebDriver webDriver() {
         if (driver == null) {
-            String chromeDriverPath = "C:\\Users\\RODRIGO\\OneDrive - berrymuch\\entrevista de trabajo ntt\\procesosSeleccion\\PruebaE2E\\src\\test\\resources\\webdriver\\chromedriver.exe";
-            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-            driver = new ChromeDriver();
+            ChromeOptions co = new ChromeOptions();
+            co.addArguments("--remote-allow-origins=*");
+            //String chromeDriverPath = "C:\\Users\\RODRIGO\\OneDrive - berrymuch\\entrevista de trabajo ntt\\procesosSeleccion\\PruebaE2E\\src\\test\\resources\\webdriver\\chromedriver.exe";
+            //System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+            driver = new ChromeDriver(co);
         }
         return driver;
     }
