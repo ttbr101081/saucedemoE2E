@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,11 +21,16 @@ public class DOM {
     private static String url;
     public static WebDriver webDriver() {
         if (driver == null) {
-            ChromeOptions co = new ChromeOptions();
-            co.addArguments("--remote-allow-origins=*");
+            //utilizar driver de Firefox
+            FirefoxOptions options = new FirefoxOptions();
+            driver = new FirefoxDriver(options);
+            //Utilizar driver de Chrome
+            //ChromeOptions co = new ChromeOptions();
+            //co.addArguments("--remote-allow-origins=*");
+            //utilizar en caso de que no este soportada la version de Chrmedriver
             //String chromeDriverPath = "C:\\Users\\RODRIGO\\OneDrive - berrymuch\\entrevista de trabajo ntt\\procesosSeleccion\\PruebaE2E\\src\\test\\resources\\webdriver\\chromedriver.exe";
             //System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-            driver = new ChromeDriver(co);
+            //driver = new ChromeDriver(co);
         }
         return driver;
     }
